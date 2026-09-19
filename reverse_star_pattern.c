@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main(){
-    int x, y, z;
+    int x=10, y, z;
     printf("enter the number of rows");
     scanf("%d",&z);
-    while(x>=z){
+    x = z;
+    while(x>=1){
         y=1;
         while(y<=x){
             printf("*");
