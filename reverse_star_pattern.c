@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main(){
-    int x=1, y,z;
+    int x, y, z;
     printf("enter the number of rows");
     scanf("%d",&z);
-    while(x<=z){
+    while(x>=z){
         y=1;
         while(y<=x){
             printf("*");
             y++;
         }
         printf("\n");
-        x++;
+        x--;
     }
     return 0;
 }
