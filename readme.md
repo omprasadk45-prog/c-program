@@ -1,4 +1,4 @@
-# Hi there 👋 I'm [Your Name]
+# Hi there 👋 I'm Omprasad!
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=FF5733&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub!;I+Love+C+Programming;Let's+Build+Together" />
 
