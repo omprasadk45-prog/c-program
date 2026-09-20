@@ -33,7 +33,6 @@
 <img src="https://img.shields.io/badge/Arrays-33CCFF?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Pointers-FFCC00?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Functions-9D00FF?style=for-the-badge" />
-<img src="https://img.shields.io/badge/While_Loop-FF1493?style=for-the-badge" />
 </p>
 
 ---
@@ -51,3 +50,5 @@
 </div>
 
 ---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=130&section=footer&text=Thanks%20for%20Visiting!&fontSize=28&fontColor=fff&animation=fadeIn&fontAlignY=75" />
