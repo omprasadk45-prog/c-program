@@ -3,7 +3,7 @@
 # Hi there 👋 I'm Omprasad!
 
 <div align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=FF5733&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub!;I+Love+C+Programming;Let's+Build+Together" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=FF00FF&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub!;I+Love+C+Programming;Let's+Build+Together" />
 </div>
 
 ### 🚀 About Me
