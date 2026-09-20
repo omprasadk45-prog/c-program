@@ -24,8 +24,8 @@
 ### 📊 GitHub Stats
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Omprasad&show_icons=true&theme=radical&border_color=FF00FF" width="400"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Omprasad&theme=radical&border=FF00FF" width="400"/>
+<img src="https://github-readme-stats.vercel.app/api?username=omprasadk45-prog&show_icons=true&theme=radical&border_color=FF00FF" width="400"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=omprasadk45-prog&theme=radical&border=FF00FF" width="400"/>
 
 </div>
 
@@ -38,9 +38,9 @@
 </p>
 
 <div align="center">
-<img src="https://github-profile-trophy.github.io/?username=Omprasad&theme=radical&no-frame=true&column=4&margin-w=15" />
+<img src="https://github-profile-trophy.github.io/?username=omprasadk45-prog&theme=radical&no-frame=true&column=4&margin-w=15" />
 
-<img src="https://komarev.com/ghpvc/?username=Omprasad&label=Profile%20views&color=ff00ff&style=flat" />
+<img src="https://komarev.com/ghpvc/?username=omprasadk45-prog&label=Profile%20views&color=ff00ff&style=flat" />
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=&animation=fadeIn" />
