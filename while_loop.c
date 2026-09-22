@@ -116,7 +116,7 @@ int main(){
 }*/
 
 //fibonacci sequence
-
+/*// incomplete
 #include <stdio.h>
 int main(){
     int x=0,n,y=1;
@@ -133,3 +133,42 @@ int main(){
     }
 return 0;
 }
+
+
+// palindrome number(number same when it is reversed)
+#include <stdio.h>
+int main(){
+    int n,rev=0,rem,temp;
+    printf("enter the number ");
+    scanf("%d",&n);
+    temp=n;
+    while(n!=0){
+        rem=n%10;
+        rev=rev*10+rem;
+        n=n/10;
+    }
+    if(temp==rev){
+        printf("it is a palindrome");
+        }
+    else{
+        printf("it is not a palindrome");
+        }
+    return 0;
+}
+
+//reversing a number
+#include <stdio.h>
+int main(){
+    int original,temp,rem,rev=0;
+    printf("enter the original number");
+    scanf("%d",&original);
+    while(original!=0){
+        rem=original%10;
+        rev=rev*10+rem;
+        original=original/10;
+    }
+    printf("the reversed number is %d",rev);
+    return 0;
+}*/
+
+//

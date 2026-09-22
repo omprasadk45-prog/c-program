@@ -1,0 +1,7 @@
+                                              IMPORTANT POINTS
+1) return 0:
+      0 means "the program finished successfully, no errors."
+      Any non-zero value (like 1, 2, -1, etc.) signals "something went wrong," and different numbers can be used to indicate different kinds of errors.
+      So return 0; is essentially your program telling the OS: "I ran to completion, everything's fine." 
+
+2)
