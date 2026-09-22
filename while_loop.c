@@ -159,7 +159,7 @@ int main(){
 //reversing a number
 #include <stdio.h>
 int main(){
-    int original,temp,rem,rev=0;
+    int original,rem,rev=0;
     printf("enter the original number");
     scanf("%d",&original);
     while(original!=0){
@@ -171,4 +171,79 @@ int main(){
     return 0;
 }*/
 
-//
+//prime number
+
+//prime number logic is:-if any number between 2-(n-1)divides n then its not prime
+
+/*#include <stdio.h>
+int main(){
+    int num,i,isprime=1;
+    printf("enter the number to check; ");
+    scanf("%d",&num);
+    if(num<=1){
+        isprime=0;
+    }
+    else{
+        i=2;    //start checking from 2
+        while(i*i<=num-1){
+            if (num%i==0){
+                isprime=0;
+                break;
+        }
+            i++;
+    }
+    if(isprime==0) //0 means got he divisor 
+        printf("it is not a prime number");
+    
+    else // 1 means still prime
+        printf("it is a prime number");
+    }
+return 0;    
+}*/
+
+// prime number logic 2 (INCORRECT LOGIC)
+/*#include <stdio.h>
+int main(){
+    int num,i;
+    printf("enter the number to be checked");
+    scanf("%d",&num);
+    if(num<=1)
+        printf("it is neither prime nor composite");
+    else{
+        i=2;
+        while(i<num){
+            if(num%i!=0)
+                printf("it is a prime number");
+                break;
+        i++;
+        }
+    if(i==num)
+        printf("prime number");
+    }
+return 0;
+}*/
+
+//problems
+//a)
+/*#include <stdio.h>
+int main(){
+    int j;
+    while(j<=10){
+        printf("\n%d",j);
+        j++;
+    }
+    return 0;
+}*/
+
+//b)
+/*#include <stdio.h>
+int main(){
+    int x=1;
+    while(x==1){
+        x--;
+        printf("\n%d",x);
+    }
+return 0;
+}*/
+
+
