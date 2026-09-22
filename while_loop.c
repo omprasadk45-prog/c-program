@@ -223,6 +223,8 @@ int main(){
 return 0;
 }*/
 
+
+
 //problems
 //a)
 /*#include <stdio.h>
@@ -244,6 +246,23 @@ int main(){
         printf("\n%d",x);
     }
 return 0;
-}*/
+}
 
+
+//alphabet ladder
+
+#include <stdio.h>
+int main(){
+    int i=0,j;
+    while(i<5){
+        j=0;
+        while(j<=i){
+            printf("%c",'A'+i);  //i gives one row one alphabet
+            j++;
+        }
+        i++;
+        printf("\n");
+    }
+    return 0;
+}*/
 
