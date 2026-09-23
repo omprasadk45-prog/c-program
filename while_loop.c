@@ -267,7 +267,7 @@ int main(){
 }*/
 
 // armstrong number
-/*#include <stdio.h>
+#include <stdio.h>
 int main(){
     int sum=0,rem,num,temp;
     printf("enter the number to be verfied");
@@ -286,6 +286,6 @@ else{
 }
     return 0;
     }
-*/
+
 
 #include <stdio.h>
