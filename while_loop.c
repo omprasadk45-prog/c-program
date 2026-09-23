@@ -266,3 +266,26 @@ int main(){
     return 0;
 }*/
 
+// armstrong number
+/*#include <stdio.h>
+int main(){
+    int sum=0,rem,num,temp;
+    printf("enter the number to be verfied");
+    scanf("%d",&num);
+    temp=num;
+    while(num>=1){
+        rem=num%10;
+        sum=sum+(rem*rem*rem);
+        num=num/10;
+    }
+    if(sum==temp){
+        printf("it is a armstraong number");
+}
+else{
+    printf("it is not a armstrong number");
+}
+    return 0;
+    }
+*/
+
+#include <stdio.h>
