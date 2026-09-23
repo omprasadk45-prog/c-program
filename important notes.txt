@@ -4,4 +4,5 @@
       Any non-zero value (like 1, 2, -1, etc.) signals "something went wrong," and different numbers can be used to indicate different kinds of errors.
       So return 0; is essentially your program telling the OS: "I ran to completion, everything's fine." 
 
-2)
+2)printf("%d",&i);
+  & displays the address of the variable;

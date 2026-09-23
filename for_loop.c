@@ -34,11 +34,23 @@ int main(){
         printf("\n");
     }
 return 0;
-}*/
+}
 
-
+// reverse pattern with spaces
 #include <stdio.h>
 int main(){
-    
-}
+    int stars,spaces,rows=1;
+    for(rows;rows<=5;rows++){
+        for(spaces=1;spaces<=5-rows;spaces++){
+            printf(" ");
+        }
+        for(stars=1;stars<=rows;stars++){
+                printf("*");
+            
+        }
+        printf("\n");
+    }
+    return 0;
+}*/
+
 
