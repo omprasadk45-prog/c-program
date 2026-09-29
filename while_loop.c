@@ -266,7 +266,7 @@ int main(){
     return 0;
 }*/
 
-// armstrong number
+/*// armstrong number
 #include <stdio.h>
 int main(){
     int sum=0,rem,num,temp;
@@ -285,7 +285,42 @@ else{
     printf("it is not a armstrong number");
 }
     return 0;
-    }
+    }*/
 
-
+/*
 #include <stdio.h>
+int main(){
+     int n,x,i=0;
+     double sum=0;
+    printf("enter the number of entries");
+    scanf("%d",&n);
+    while(i<n){
+        printf("x= ");
+        scanf("%d",&x);
+        sum+=x;
+        i++;
+    }
+    printf("the average is %lf",sum/n);
+    return 0;
+}*/
+
+//number triangle
+#include <stdio.h>
+int main(){
+    int x=1,y,n;
+    printf("enter the number of rows");
+    scanf("%d",&n);
+    while(x<=n+1){
+        y=1;
+        while(y<x){
+            printf(" %d",x*y);
+            y++;
+        }
+    printf("\n");
+    x++;
+    }
+    return 0;
+}
+
+
+

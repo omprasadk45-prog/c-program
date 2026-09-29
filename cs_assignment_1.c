@@ -73,7 +73,7 @@ int main(){
     }
     return 0;
 
-}*/
+}
 //8)pascals triangle
 #include <stdio.h>
 int main(){
@@ -93,4 +93,5 @@ int main(){
     printf("\n");
     }
     return 0;
-}
+}*/
+
