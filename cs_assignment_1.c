@@ -254,3 +254,10 @@ int main(){
     printf("Longest consecutive sequence length: %d\n",longestLength);
     return 0;
 }*/
+
+//14
+
+#include <stdio.h>
+int main(){
+    in
+}
