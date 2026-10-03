@@ -1,5 +1,5 @@
 //1)
-/*#include <stdio.h>
+#include <stdio.h>
 int main(){
     int nums[10]={0,2,2,4,6,3,0,9,2},x,temp,pass;
     for(pass=0;pass<10;pass++){
@@ -15,7 +15,7 @@ int main(){
         printf("%d",nums[x]);
     }
     return 0;
-}*/
+}
 
 //2)
 /*#include <stdio.h>
@@ -73,8 +73,8 @@ int main(){
     }
     return 0;
 
-}*/
-//8)pascals triangle
+}
+//9)pascals triangle
 #include <stdio.h>
 int main(){
     int rows,r,c,value,k;
@@ -95,3 +95,165 @@ int main(){
     return 0;
 }
 
+//4) 
+#include <stdio.h>
+int main(){
+    int matrix[3][3]={
+        {1,2,3},
+        {4,5,6},
+        {7,8,9}
+    };
+    int rotated[3][3],row,col;
+    for(row=0;row<3;row++){
+        for(col=0;col<3;col++){
+            rotated[col][2-row]=matrix[row][col];
+        }   
+    }
+    printf("rotated 90 deg\n");
+    for(row=0;row<3;row++){
+        for(col=0;col<3;col++){
+            printf("%d",rotated[row][col]);
+        }
+        printf("\n");
+    }
+    return 0;
+}*/
+
+//5)
+/*#include <stdio.h>
+int main(){
+    int matrix[3][3]={
+        {1,2,3},
+        {4,0,6},
+        {5,8,9}
+    };
+    int row,col;
+    int rowHasZero[3]={0};
+    int colHasZero[3]={0};
+
+    for(row=0;row<3;row++){
+        for(col=0;col<3;col++){
+            if(matrix[row][col]==0){
+                rowHasZero[row]=1;
+                colHasZero[col]=1;
+            }
+        }
+    }
+
+    for(row=0;row<3;row++){
+        for(col=0;col<3;col++){
+            if(rowHasZero[row] || colHasZero[col]){
+                matrix[row][col]=0;
+            }
+        }
+    }
+
+    for(row=0;row<3;row++){
+        for(col=0;col<3;col++){
+            printf("%d ",matrix[row][col]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}*/
+
+//16)
+
+/*#include <stdio.h>
+int main(){
+    int array[10]={1,2,2,3,3,3,4,4,4,4};
+    int i,j,count;
+    int highestFrequency=0;
+    int lowestFrequency=10;
+
+    for(i=0;i<10;i++){
+        int alreadyCounted=0;
+
+        for(j=0;j<i;j++){
+            if(array[i]==array[j]){
+                alreadyCounted=1;
+                break;
+            }
+        }
+
+        if(alreadyCounted){
+            continue;
+        }
+
+        count=0;
+        for(j=0;j<10;j++){
+            if(array[i]==array[j]){
+                count++;
+            }
+        }
+
+        if(count>highestFrequency){
+            highestFrequency=count;
+        }
+        if(count<lowestFrequency){
+            lowestFrequency=count;
+        }
+    }
+
+    printf("Sum of highest and lowest frequencies: %d\n",
+           highestFrequency+lowestFrequency);
+    return 0;
+}*/
+
+#include <stdio.h>
+
+int longestConsecutive(int nums[], int n){
+    int i,j;
+    int longestLength=0;
+
+    for(i=0;i<n;i++){
+        int hasPrevious=0;
+        int currentLength=1;
+        long long nextValue=(long long)nums[i]+1;
+
+        for(j=0;j<n;j++){
+            if((long long)nums[j]==(long long)nums[i]-1){
+                hasPrevious=1;
+                break;
+            }
+        }
+
+        if(hasPrevious){
+            continue;
+        }
+
+        while(1){
+            int found=0;
+
+            for(j=0;j<n;j++){
+                if((long long)nums[j]==nextValue){
+                    found=1;
+                    break;
+                }
+            }
+
+            if(!found){
+                break;
+            }
+
+            currentLength++;
+            nextValue++;
+        }
+
+        if(currentLength>longestLength){
+            longestLength=currentLength;
+        }
+    }
+
+    return longestLength;
+}
+
+int main(){
+    int nums[]={100,4,200,1,3,2};
+    int n=sizeof(nums)/sizeof(nums[0]);
+
+    printf("Longest consecutive sequence length: %d\n",
+           longestConsecutive(nums,n));
+    return 0;
+}
