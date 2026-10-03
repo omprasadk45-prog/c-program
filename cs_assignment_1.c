@@ -1,4 +1,5 @@
 //1)
+/*
 #include <stdio.h>
 int main(){
     int nums[10]={0,2,2,4,6,3,0,9,2},x,temp,pass;
@@ -16,6 +17,7 @@ int main(){
     }
     return 0;
 }
+*/
 
 //2)
 /*#include <stdio.h>
@@ -201,9 +203,12 @@ int main(){
     return 0;
 }*/
 
+//15)
 #include <stdio.h>
 
-int longestConsecutive(int nums[], int n){
+int main(){
+    int nums[]={100,4,200,1,3,2};
+    int n=sizeof(nums)/sizeof(nums[0]);
     int i,j;
     int longestLength=0;
 
@@ -246,14 +251,6 @@ int longestConsecutive(int nums[], int n){
         }
     }
 
-    return longestLength;
-}
-
-int main(){
-    int nums[]={100,4,200,1,3,2};
-    int n=sizeof(nums)/sizeof(nums[0]);
-
-    printf("Longest consecutive sequence length: %d\n",
-           longestConsecutive(nums,n));
+    printf("Longest consecutive sequence length: %d\n",longestLength);
     return 0;
 }
