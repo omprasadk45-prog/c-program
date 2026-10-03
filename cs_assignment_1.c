@@ -204,7 +204,7 @@ int main(){
 }*/
 
 //15)
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main(){
     int nums[]={100,4,200,1,3,2};
@@ -253,4 +253,4 @@ int main(){
 
     printf("Longest consecutive sequence length: %d\n",longestLength);
     return 0;
-}
+}*/
