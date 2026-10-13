@@ -259,5 +259,9 @@ int main(){
 
 #include <stdio.h>
 int main(){
-    in
+    int array[]={1,4,5,4,5,5,6,8,1},i;
+    for(i=0;i<9;i++){
+        
+        
+    }
 }

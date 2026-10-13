@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 int main(){
     int x=1, y,z;
     printf("enter the number of rows");
@@ -11,6 +11,18 @@ int main(){
         }
         printf("\n");
         x++;
+    }
+    return 0;
+}*/
+
+#include <stdio.h>
+int main(){
+    int x=1,y;
+    for(x;x<=5;x++){
+        for(y=1;y<=x;y++){
+            printf("*");
+        }
+    printf("\n");
     }
     return 0;
 }

@@ -1,11 +1,11 @@
 // reverse star with spaces
-/* #include <stdio.h>
+ #include <stdio.h>
 int main(){
     int x=1, y, z;
-    while(x<=5){
+    while(x<=6){
         y=1;
         z=1;
-        while(z <= 5 - x){ //spaces loop(5-1),(5-2)......
+        while(z <= 6 - x){ //spaces loop(5-1),(5-2)......
             printf(" ");
             z++;
         }
@@ -19,7 +19,7 @@ int main(){
     return 0;
 }
 
-//pyramid pattern
+/*//pyramid pattern
 
 #include <stdio.h>
 int main(){
@@ -304,7 +304,7 @@ int main(){
     return 0;
 }*/
 
-//number triangle
+/*//number triangle
 #include <stdio.h>
 int main(){
     int x=1,y,n;
@@ -320,7 +320,7 @@ int main(){
     x++;
     }
     return 0;
-}
+}*/
 
 
 
