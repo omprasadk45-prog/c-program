@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Omprasad&fontSize=45&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=C%20Developer%20|%20Problem%20Solver&descAlignY=60&descAlign=50" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=OMPRASAD&fontSize=45&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=C%20Developer%20|%20Problem%20Solver&descAlignY=60&descAlign=50" />
 
 <div align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=650&lines=Welcome+to+my+World!+👋;I+am+C+Developer+%7C+DSA+Learner;Arrays+%7C+Pointers+%7C+Loops;Let's+Code+Together!+🚀" />
