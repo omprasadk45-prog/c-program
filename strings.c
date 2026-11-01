@@ -122,7 +122,7 @@ int main(){
     
 }*/
 //string to integer using loop
-#include <stdio.h>
+/*#include <stdio.h>
 int main(){
     char str[]="123";
     int i,num=0;
@@ -130,5 +130,51 @@ int main(){
             num=num*10+(str[i]-'0');
     }
     printf("%d",num+2);
+    return 0;
+}*/
+// best way of getting input!
+/*#include <stdio.h>
+#include <strings.h>
+int main(){
+    char str[50];
+    printf("enter the word");
+    fgets(str,sizeof(str),stdin);
+    printf("\nUPPERCASE=%s",strupr(str));
+    return 0;
+}*/
+
+//removing the extra spaces
+
+/*#include <stdio.h>
+int main(){
+   char input[100];
+   char output[100];
+   int i=0;
+   int j=0;
+   printf("enter the word\n");
+   fgets(input,sizeof(input),stdin);
+   while(input[i]!='\0'){
+    output[j]=input[i];
+    j++;
+    if(input[i]==' '){
+        while(input[i+1]==' '){
+            i++;
+        }
+    }
+    i++;
+   }
+   output[j]='\0';
+   printf("Modified string\n%s",output);
+   return 0;
+}*/
+
+#include <stdio.h>
+int main(){
+    char str[]="HELLO";
+    int i=0;
+    while(str[i]!='\0'){
+        printf("%c",str[i]+32);
+        i++;
+    }
     return 0;
 }
